@@ -57,7 +57,6 @@ nav li {
 label {
     font-family: 'Burbank Small';
     font-size: 20px;
-    margin-left: 450px;
     text-align: center;
 }
 
@@ -101,19 +100,18 @@ button {
 }
 
 .randomizer_button {
-    margin: 0px 0px 10px 500px;
+    margin-left: 100px;
+    text-align: center;
 }
 
 .randomizer_asset {
     max-width: 100%;
     max-height: 100%;
-    display: block;
+    float: right;
+    width: 150px;
+    margin-right: 100px;
+}
 
-}
-.box {
-    width: 250px;
-    border: 5px solid black;
-}
 
 /* Media Queries */
 @media screen and (max-width: 1102px) {
