@@ -15,7 +15,7 @@ body {
 
 h1 {
     font-family: 'Burbank Small';
-    font-size: 45px;
+    font-size: 2.813em;
     text-align: center;
 }
 
@@ -57,11 +57,12 @@ nav li {
 label {
     font-family: 'Burbank Small';
     font-size: 20px;
+    margin-left: 425px;
     text-align: center;
 }
 
 input {
-    margin-left: 450px;
+    margin-left: 425px;
     font-family: 'Burbank Small';
     font-size: 20px;
 }
@@ -80,6 +81,7 @@ button {
     text-align: center;
     background-image: url("images/banner.png");
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .rectangle {
@@ -114,43 +116,77 @@ button {
 
 
 /* Media Queries */
-@media screen and (max-width: 1102px) {
-    nav li {
-        margin-left: 95px;
+
+/* iPad Pro Landscape View */
+@media screen and (max-width: 1366px) {
+    p {
+        margin: 0px 25px;
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    footer {
+        margin: 0px 500px;
     }
 }
 
-@media screen and (max-width: 875px) {
+/* iPad Pro Portrait View*/
+@media screen and (max-width: 1024px) {
     nav li {
         margin-left: 80px;
+        padding: 10px;
+        font-size: 35px;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    p {
+        margin: 0px 50px;
+        font-size: 50px;
+    }
+    footer {
+        font-size: 35px;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 6px;
+    }
+    button {
+        font-size: 25px;
+    }
+    label {
+        font-size: 25px;
+        margin-left: 225px;
+    }
+    input {
+        font-size: 25px;
+        margin-left: 225px;
+    }
+    .randomizer_asset {
+        margin-right: 25px;
     }
 }
 
+/* iPad Landscape */
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 45px;
+    }
+    p {
+        font-size: 30px;
+    }
+}
+/* iPad Portrait */
 @media screen and (max-width: 768px) {
-    nav li {
-        margin-left: 70px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    nav li {
-        margin-left: 60px;
-    }
-}
-@media screen and (max-width: 575px) {
-    nav li {
-        margin-left: 75px;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    nav li {
-        margin-left: 60px;
-    }
-}
-
-@media screen and (max-width: 400px) {
     nav li {
         margin-left: 50px;
     }
+    p {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 50px;
+    }
 }
+
+/* iPhone 6/7/8 Plus Landscape */
