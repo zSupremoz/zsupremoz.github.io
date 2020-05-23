@@ -196,7 +196,7 @@ function randomgw1zombie () {
             document.getElementById("gw1_random_character").innerHTML = "Chemist";
             break;
         case 21:
-            document.getElementById("gw1_random_character").innerHTML = "Archaeologist";
+            document.getElementById("gw1_random_character").innerHTML = "Archeologist";
             break;
         case 22:
             document.getElementById("gw1_random_character").innerHTML = "Dr. Chester";

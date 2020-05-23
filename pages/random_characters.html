@@ -7,6 +7,8 @@
         src="../scripts/bfnrandomizer.js"></script>
         <script type="text/javascript"
         src="../scripts/gwrandomizer.js"></script>
+        <script type="text/javascript"
+        src="../scripts/gw2randomizer.js"></script>
     </head>
     <body>
 
@@ -33,18 +35,22 @@
         <section class="page_contents">
             <h1>PvZ: GW | Character Randomizer</h1>
             <div>
-                <button class="randomizer_button" onclick="randomgw1plant()">Random Plant</button><br>
-                <button class="randomizer_button" onclick="randomgw1zombie()">Random Zombie</button><br>
-                <label id="gw1_random_character">Press one of the buttons above to use this App.</label>
+                <img id="character_image_gw1" class="randomizer_asset" src="../images/randomizer assets/bfn/default.png">
             </div>
+            <br>
+                <button class="randomizer_button" onclick="randomgw1plant()">Random Plant</button><br><br>
+                <button class="randomizer_button" onclick="randomgw1zombie()">Random Zombie</button><br><br>
+                <label class="randomizer_button" id="gw1_random_character">Click on a button.</label><br><br><br>
         </section><br>
         <section class="page_contents">
             <h1>PvZ: GW2 | Character Randomizer</h1>
             <div>
-                <button class="randomizer_button">Random Plant</button><br>
-                <button class="randomizer_button">Random Zombie</button><br>
-                <label id="gw2_random_character">Feature currently unavailable.</label>
+                <img id="character_image_gw2" class="randomizer_asset" src="../images/randomizer assets/bfn/default.png">
             </div>
+            <br>
+                <button class="randomizer_button" onclick="randomgw2plant()">Random Plant</button><br><br>
+                <button class="randomizer_button" onclick="randomgw2zombie()">Random Zombie</button><br><br>
+                <label class="randomizer_button" id="gw2_random_character">Click on a button.</label><br><br><br>
         </section><br>
         <section class="page_contents">
             <h1>PvZ: BFN | Character Randomizer</h1>
@@ -54,14 +60,14 @@
                 <br>
                 <button class="randomizer_button" onclick="randomBfnPlant()">Random Plant</button><br><br>
                 <button class="randomizer_button" onclick="randomBfnZombie()">Random Zombie</button><br><br>
-                <label class = "randomizer_button" id="bfn_random_character">Press one of the buttons above to use this App.</label><br><br><br>
+                <label class = "randomizer_button" id="bfn_random_character">Click on a button.</label><br><br><br>
                 
         </section>
         <br>
 
         <!-- Footer -->
         <footer>
-            Website written by <a href="https://twitter.com/zSupremoz">zSupremoz</a>. <a href="https://github.com/zSupremoz/zsupremoz.github.io">Source Code</a>.
+            Website written by <a href="https://github.com/zSupremoz/">zSupremoz</a>. <a href="https://github.com/zSupremoz/zsupremoz.github.io">Source Code</a>.
         </footer>
     </body>
 </html>

@@ -114,6 +114,23 @@ button {
     margin-right: 100px;
 }
 
+.pfp {
+    margin-left: 50px;
+}
+
+.profile_info {
+    text-align: left;
+    margin-left: 75px;
+}
+
+.undername {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.sidenote {
+    font-size: 20px;
+}
 
 /* Media Queries */
 
