@@ -326,7 +326,7 @@ function randomgw2zombie () {
             document.getElementById("character_image_gw2").src = "../images/randomizer assets/gw2/zombies/electrician.png";
             break;
         case 13:
-            document.getElementById("gw2_random_character").innerHTML = "mechanic";
+            document.getElementById("gw2_random_character").innerHTML = "Mechanic";
             document.getElementById("character_image_gw2").src = "../images/randomizer assets/gw2/zombies/mechanic.png";
             break;
         case 14:
