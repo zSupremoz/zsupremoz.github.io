@@ -188,7 +188,7 @@ function randomgw2plant () {
             break;
         case 41:
             document.getElementById("gw2_random_character").innerHTML = "Petrified Cactus";
-            document.getElementById("character_image_gw2").src = "../images/randomizer assets/gw2/plants/pretrifiedcactus.png";
+            document.getElementById("character_image_gw2").src = "../images/randomizer assets/gw2/plants/petrifiedcactus.png";
             break;
         case 42:
             document.getElementById("gw2_random_character").innerHTML = "Citron";
