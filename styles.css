@@ -138,6 +138,18 @@ select {
     font-size: 20px;
 }
 
+.calc_image {
+    width: 35px;
+    margin-left: 425px;
+}
+
+.calc_label {
+    font-size: 25px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 7px;
+}
+
 /* Media Queries */
 
 /* iPad Pro Landscape View */
