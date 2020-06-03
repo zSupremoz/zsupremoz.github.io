@@ -33,6 +33,11 @@ function getStars () {
     {
         document.getElementById("stars").value = bulbsTen;
     }
+    else if (BulbCount <= 15 && BulbCount > 10)
+    {
+        result = bulbsFive + bulbsTen;
+        document.getElementById("stars").value = result;
+    }
     else if (BulbCount <= 20 && BulbCount > 10)
     {
         document.getElementById("stars").value = bulbsTwenty;
