@@ -32,15 +32,23 @@
             <h1>PvZ BFN Prize Bulb Calculator</h1>
             
             <!-- XP Section -->
+            <label>XP</label><br>
             <img class="calc_image" src="../images/xp.png" alt="xp"><br>
             <input type="text" id="xp_amount" name="xpamount">
-            <button onclick="convertToPrizeBulb()">Convert</button>
+            <button onclick="convertToPrizeBulb();getStars()">Convert</button>
             <br><br>
 
             <!-- Prize Bulb Section -->
+            <label>Prize Bulbs</label><br>
             <img class="calc_image" src="../images/prizebulb.png" alt="prize bulb"><br>
             <input type="text" id="prize_bulbs" name="prizebulbs">
-            <button onclick="convertToXp()">Convert</button>
+            <button onclick="convertToXp();getStars()">Convert</button>
+            <br><br>
+
+            <!-- Rainbow Stars WIP -->
+            <label>Rainbow Stars (only for 50 Bulbs or less)</label><br>
+            <img class="calc_image" src="../images/star.png" alt="rainbow star"><br>
+            <input type="text" id="stars" name="rainbowstars" readonly>
             <br><br>
 
         </section>
