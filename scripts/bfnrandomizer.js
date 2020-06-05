@@ -22,8 +22,6 @@ function randomBfnPlant () {
             break;
         
         case 2:
-            document.getElementById("bfn_random_character").innerHTML = "Kernel Corn";
-            document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfncorn.png";
             var useLegendary = Math.floor(Math.random()*HasLegendaryUpg.length);
             
             switch (useLegendary)
@@ -33,6 +31,8 @@ function randomBfnPlant () {
                     document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfncorn_legendary.png";
                     break;
                 case 1:
+                    document.getElementById("bfn_random_character").innerHTML = "Kernel Corn";
+                    document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfncorn.png";
                     break;
             }
             break;
@@ -68,8 +68,7 @@ function randomBfnPlant () {
             break;
 
         case 9:
-            document.getElementById("bfn_random_character").innerHTML = "Rose";
-            document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfnrose.png";
+            
             var useLegendary = Math.floor(Math.random()*HasLegendaryUpg.length);
 
             switch (useLegendary)
@@ -79,6 +78,8 @@ function randomBfnPlant () {
                     document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfnrose_legendary.png";
                     break;
                 case 1:
+                    document.getElementById("bfn_random_character").innerHTML = "Rose";
+                    document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfnrose.png";
                     break;
             }
             break;
@@ -131,8 +132,7 @@ function randomBfnZombie () {
             break;
 
         case 8:
-            document.getElementById("bfn_random_character").innerHTML = "Scientist";
-            document.getElementById("character_image").src = "../images/randomizer assets/bfn/zombies/bfn scientist.png";
+            
             var useLegendary = Math.floor(Math.random()*HasLegendaryUpg.length);
 
             switch (useLegendary)
@@ -142,6 +142,8 @@ function randomBfnZombie () {
                     document.getElementById("character_image").src = "../images/randomizer assets/bfn/zombies/bfn scientist_legendary.png";
                     break;
                 case 1:
+                    document.getElementById("bfn_random_character").innerHTML = "Scientist";
+                    document.getElementById("character_image").src = "../images/randomizer assets/bfn/zombies/bfn scientist.png";
                     break;
             }
 
