@@ -2,6 +2,7 @@
 /* Plants vs. Zombies: Battle for Neighborville */
 var bfnplants = ["Peashooter", "Chomper", "Kernel Corn", "Night Cap", "Snapdragon", "Cactus", "Citron", "Acorn", "Sunflower", "Rose"];
 var bfnzombies = ["Foot Soldier", "Imp", "Super Brainz", "80's Action Hero", "Electrict Slide", "All-Star", "Captain Deadbeard", "Space Cadet", "Scientist", "Engineer", "Wizard"];
+var HasLegendaryUpg = ["Yes", "No"];
 /*
 var HasLegendaryUpg = [0, 1];
 */
@@ -24,16 +25,16 @@ function randomBfnPlant () {
             document.getElementById("bfn_random_character").innerHTML = "Kernel Corn";
             document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfncorn.png";
             var useLegendary = Math.floor(Math.random()*HasLegendaryUpg.length);
-            /*
+            
             switch (useLegendary)
             {
                 case 0:
-                    alert("Use this characgter's Legendary Upgrade");
+                    document.getElementById("bfn_random_character").innerHTML = "Kernel Corn - Shogun Guard";
+                    document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfncorn_legendary.png";
                     break;
                 case 1:
                     break;
             }
-            */
             break;
 
         case 3:
@@ -71,22 +72,21 @@ function randomBfnPlant () {
             document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfnrose.png";
             var useLegendary = Math.floor(Math.random()*HasLegendaryUpg.length);
 
-            /*
             switch (useLegendary)
             {
                 case 0:
-                    alert("Use this characgter's Legendary Upgrade");
+                    document.getElementById("bfn_random_character").innerHTML = "Rose - Thorn Apart";
+                    document.getElementById("character_image").src = "../images/randomizer assets/bfn/plants/bfnrose_legendary.png";
                     break;
                 case 1:
                     break;
             }
-            */
             break;
     }
 }
 
 function randomBfnZombie () {
-    var randomZombie = Math.floor(Math.random()*bfnplants.length);
+    var randomZombie = Math.floor(Math.random()*bfnzombies.length);
     
     switch (randomZombie)
     {
@@ -135,16 +135,16 @@ function randomBfnZombie () {
             document.getElementById("character_image").src = "../images/randomizer assets/bfn/zombies/bfn scientist.png";
             var useLegendary = Math.floor(Math.random()*HasLegendaryUpg.length);
 
-            /*
             switch (useLegendary)
             {
                 case 0:
-                    alert("Use this characgter's Legendary Upgrade");
+                    document.getElementById("bfn_random_character").innerHTML = "Scientist - Steam Blaster";
+                    document.getElementById("character_image").src = "../images/randomizer assets/bfn/zombies/bfn scientist_legendary.png";
                     break;
                 case 1:
                     break;
             }
-            */
+
             break;
 
         case 9:
