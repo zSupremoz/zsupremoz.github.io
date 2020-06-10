@@ -84,6 +84,10 @@ function randomBfnPlant () {
             }
             break;
     }
+
+    /*
+    document.getElementById("bfn_section").style.backgroundColor = "#57a243";
+    */
 }
 
 function randomBfnZombie () {
@@ -160,4 +164,7 @@ function randomBfnZombie () {
             break;
 
     }
+    /*
+    document.getElementById("bfn_section").style.backgroundColor = "#5e4a89";
+    */
 }
