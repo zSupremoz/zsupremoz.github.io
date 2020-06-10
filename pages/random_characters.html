@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>zSupremoz's GitHub Page | Character Randomizer</title>
-        <link rel="stylesheet" type="text/css" href="../styles.css">
+        <link rel="stylesheet" type="text/css" href="../styles/styles.css">
         <script type="text/javascript"
         src="../scripts/bfnrandomizer.js"></script>
         <script type="text/javascript"
@@ -22,10 +22,10 @@
         <section>
             <nav>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="webapps.html">Web Apps</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="webapps.html">WEB APPS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                 </ul>
                 <p><br></p>
             </nav>
@@ -38,8 +38,8 @@
                 <img id="character_image_gw1" class="randomizer_asset" src="../images/randomizer assets/bfn/default.png">
             </div>
             <br>
-                <button class="randomizer_button" onclick="randomgw1plant()">Random Plant</button><br><br>
-                <button class="randomizer_button" onclick="randomgw1zombie()">Random Zombie</button><br><br>
+                <button class="gw1" onclick="randomgw1plant()">Random Plant</button><br>
+                <button class="gw1" onclick="randomgw1zombie()">Random Zombie</button><br><br>
                 <label class="randomizer_button" id="gw1_random_character">Click on a button.</label><br><br><br>
         </section><br>
         <section class="page_contents">
@@ -48,18 +48,18 @@
                 <img id="character_image_gw2" class="randomizer_asset" src="../images/randomizer assets/bfn/default.png">
             </div>
             <br>
-                <button class="randomizer_button" onclick="randomgw2plant()">Random Plant</button><br><br>
-                <button class="randomizer_button" onclick="randomgw2zombie()">Random Zombie</button><br><br>
+                <button class="gw2" onclick="randomgw2plant()"><span>Random Plant</span></button><br>
+                <button class="gw2" onclick="randomgw2zombie()"><span>Random Zombie</span></button><br><br>
                 <label class="randomizer_button" id="gw2_random_character">Click on a button.</label><br><br><br>
         </section><br>
-        <section class="page_contents">
+        <section class="page_contents" id="bfn_section">
             <h1>PvZ: BFN | Character Randomizer</h1>
                 <div class="box">
                     <img id="character_image" class="randomizer_asset" src="../images/randomizer assets/bfn/default.png">
                 </div>
                 <br>
-                <button class="randomizer_button" onclick="randomBfnPlant()">Random Plant</button><br><br>
-                <button class="randomizer_button" onclick="randomBfnZombie()">Random Zombie</button><br><br>
+                <button class="bfn_button" onclick="randomBfnPlant()">Random Plant</button><br>
+                <button class="bfn_button" onclick="randomBfnZombie()">Random Zombie</button><br><br>
                 <label class = "randomizer_button" id="bfn_random_character">Click on a button.</label><br><br><br>
                 
         </section>

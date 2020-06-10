@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>zSupremoz's GitHub Page | Prize Bulb Calculator</title>
-        <link rel="stylesheet" type="text/css" href="../styles.css">
+        <link rel="stylesheet" type="text/css" href="../styles/styles.css">
         <script type="text/javascript"
         src="../scripts/conversion.js"></script>
     </head>
@@ -18,10 +18,10 @@
         <section>
             <nav>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="webapps.html">Web Apps</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="webapps.html">WEB APPS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                 </ul>
                 <p><br></p>
             </nav>
@@ -35,14 +35,14 @@
             <label>XP</label><br>
             <img class="calc_image" src="../images/xp.png" alt="xp"><br>
             <input type="text" id="xp_amount" name="xpamount">
-            <button onclick="convertToPrizeBulb();getStars()">Convert</button>
+            <button class="bfn_calc_button" onclick="convertToPrizeBulb();getStars()">Convert</button>
             <br><br>
 
             <!-- Prize Bulb Section -->
             <label>Prize Bulbs</label><br>
             <img class="calc_image" src="../images/prizebulb.png" alt="prize bulb"><br>
             <input type="text" id="prize_bulbs" name="prizebulbs">
-            <button onclick="convertToXp();getStars()">Convert</button>
+            <button class="bfn_calc_button"onclick="convertToXp();getStars()">Convert</button>
             <br><br>
 
             <!-- Rainbow Stars WIP -->
