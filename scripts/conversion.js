@@ -20,12 +20,17 @@ function convertToXp () {
 
 /* Plans to hopefully estimate the amount of Rainbow Stars needed to get Bulb */
 function getStars () {
+    var none = 0;
     var bulbsFive = 250;
     var bulbsTen = 450;
     var bulbsTwenty = 800;
     var result;
 
-    if (BulbCount <= 5)
+    if (BulbCount == 0)
+    {
+        document.getElementById("stars").value = none;
+    }
+    if (BulbCount <= 5 && BulbCount >= 1)
     {
         document.getElementById("stars").value = bulbsFive;
     }
